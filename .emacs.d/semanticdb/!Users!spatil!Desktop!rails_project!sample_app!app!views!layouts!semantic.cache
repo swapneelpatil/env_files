@@ -1,0 +1,40 @@
+;; Object layouts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "layouts/"
+  :tables (list 
+   (semanticdb-table "_footer.html.erb"
+    :major-mode 'html-mode
+    :tags nil
+    :file "_footer.html.erb"
+    :pointmax 174
+    :fsize 173
+    :lastmodtime '(19891 29328)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "_header.html.erb"
+    :major-mode 'html-mode
+    :tags nil
+    :file "_header.html.erb"
+    :pointmax 244
+    :fsize 243
+    :lastmodtime '(19891 29328)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "application.html.erb"
+    :major-mode 'html-mode
+    :tags 
+        '( (""layouts/stylesheets" %>" section nil nil [37 154])
+            (""layouts/header" %>
+      <section class="round">
+	<%= yield %>" section nil nil [154 366]))          
+    :file "application.html.erb"
+    :pointmax 366
+    :fsize 365
+    :lastmodtime '(19891 29328)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!spatil!Desktop!rails_project!sample_app!app!views!layouts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

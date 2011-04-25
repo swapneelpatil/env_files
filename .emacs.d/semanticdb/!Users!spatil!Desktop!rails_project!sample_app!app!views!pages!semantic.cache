@@ -1,0 +1,44 @@
+;; Object pages/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "pages/"
+  :tables (list 
+   (semanticdb-table "help.html.erb"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Pages#help<h1>
+<p>Find me in app/views/pages/help.html.erb" section nil nil [1 15])
+            ("Find me in app/views/pages/help.html.erb" section nil nil [15 68]))          
+    :file "help.html.erb"
+    :pointmax 68
+    :fsize 67
+    :lastmodtime '(19891 29328)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "about.html.erb"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Pages#about<h1>
+<p>Find me in app/views/pages/about.html.erb" section nil nil [1 16])
+            ("Find me in app/views/pages/about.html.erb" section nil nil [16 70]))          
+    :file "about.html.erb"
+    :pointmax 70
+    :fsize 69
+    :lastmodtime '(19890 19703)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "home.html.erb"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Sample App" section (:members 
+              ( ("page" anchor nil nil [55 58]))              ) nil [1 185]))          
+    :file "home.html.erb"
+    :pointmax 185
+    :fsize 184
+    :lastmodtime '(19891 29328)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!spatil!Desktop!rails_project!sample_app!app!views!pages!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
